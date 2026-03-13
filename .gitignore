@@ -1,0 +1,26 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Hardhat / Foundry / Truffle (Smart Contracts)
+artifacts/
+cache/
+coverage/
+coverage.json
+node_modules/
+typechain/
+typechain-types/
+
+# Secrets (CRITICAL: DO NOT COMMIT PRIVATE KEYS)
+secrets.json
+.secret
