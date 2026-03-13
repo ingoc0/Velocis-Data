@@ -16,7 +16,12 @@ Our ultimate goal is to bring sophisticated, institutional-grade tools to everyd
 * 🤖 **AI-Driven Predictive Models:** Anticipating market volatility to adjust positions proactively.
 * ⚖️ **Automated Rebalancing:** Smart contracts that rebalance assets gas-efficiently.
 * ⚡ **Low-Latency Execution:** Built for high-throughput environments.
-
+## Core Architecture & Quant Models
+Velocis Data moves beyond basic static LP strategies by implementing:
+* **Vectorized Risk Engine:** Using Black-Scholes inspired volatility surfaces to calculate expected Impermanent Loss bounds in real-time.
+* **Low-Level Gas Optimization:** Smart contracts leverage Custom Errors, Calldata mapping, and minimal state changes to ensure execution costs remain negligible.
+* **MEV Resistance:** Strategies are designed to bundle transactions dynamically, protecting retail LP capital from front-running and sandwich attacks within the mempool.
+  
 ## Integration with Shelby Foundation
 We are actively seeking early access to **Shelby Foundation’s infrastructure**. Leveraging Shelby's high-throughput data layers and low-latency environment is critical for our roadmap. Integrating with this ecosystem will allow us to:
 1.  **Stress-test** our machine learning models under real-market conditions.
